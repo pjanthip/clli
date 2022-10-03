@@ -70,35 +70,47 @@
 						============================================= -->
 						<nav class="primary-menu with-arrows">
 
-							<ul class="menu-container">
+							<ul class="menu-container font-sarabun">
 								<li class="menu-item current menu-color-home"><a class="menu-link" href="demo-news.html"><div>หน้าหลัก</div></a></li>
 								<li class="menu-item menu-color-tech  mega-menu mega-menu-small"><a class="menu-link" href="demo-news-category.html"><div>ข้อมูลหน่วยงาน</div></a>
 									<div class="mega-menu-content border-top-0 mega-menu-style-2" style="width: 470px">
 										<div class="container">
 											<div class="row">
-												<ul class="sub-menu-container mega-menu-column col-lg-6">
+												<ul class="sub-menu-container mega-menu-column col-lg-7">
 													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>ข้อมูลหน่วยงาน</div></a>
 														<ul class="sub-menu-container">
 															<li class="menu-item">
-																<a class="menu-link" href="header-light.html"><div>ข้อมูลหน่วยงาน</div></a>
+																<a class="menu-link font-sarabun" href="header-light.html"><div><i class="fa-solid fa-caret-right"></i>ประวัติความเป็นมา</div></a>
 															</li>
 															<li class="menu-item">
-																<a class="menu-link" href="header-dark.html"><div>โครงสร้างหน่วยงาน</div></a>
+																<a class="menu-link" href="header-light.html"><div><i class="fa-solid fa-caret-right"></i>วิสัยทัศน์ พันธกิจ</div></a>
 															</li>
 															<li class="menu-item">
-																<a class="menu-link" href="header-dark.html"><div>โครงสร้างผู้บริหารและบุคลากร</div></a>
+																<a class="menu-link" href="header-dark.html"><div><i class="fa-solid fa-caret-right"></i>โครงสร้างสถาบัน</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="header-dark.html"><div><i class="fa-solid fa-caret-right"></i>ผู้บริหารและบุคลากร</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="header-dark.html"><div><i class="fa-solid fa-caret-right"></i>ข่าวประชาสัมพันธ์</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="header-dark.html"><div><i class="fa-solid fa-caret-right"></i>ภาพกิจกรรม</div></a>
 															</li>
 														</ul>
 													</li>
 												</ul>
-												<ul class="sub-menu-container mega-menu-column col-lg-6">
-													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>ข้อมูลฝ่ายงาน</div></a>
+												<ul class="sub-menu-container mega-menu-column col-lg-5">
+													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>สารสนเทศภายใน</div></a>
 														<ul class="sub-menu-container">
 															<li class="menu-item">
-																<a class="menu-link" href="blog-single.html"><div>Credit bank</div></a>
+																<a class="menu-link" href="blog-single.html"><div><i class="fa-solid fa-caret-right"></i>CLLI MIS</div></a>
 															</li>
 															<li class="menu-item">
-																<a class="menu-link" href="blog-single-left-sidebar.html"><div>CRRU CWIE</div></a>
+																<a class="menu-link" href="blog-single.html"><div><i class="fa-solid fa-caret-right"></i>CLLI MIS</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="blog-single-left-sidebar.html"><div><i class="fa-solid fa-caret-right"></i>Download</div></a>
 															</li>
 														</ul>
 													</li>
@@ -107,18 +119,16 @@
 										</div>
 									</div>
 								</li>
-								<li class="menu-item menu-color-tech"><a class="menu-link" href="demo-news-category.html"><div>Tech</div></a></li>
-								<li class="menu-item menu-color-lifestyle mega-menu"><a class="menu-link" href="demo-news-category.html"><div>lifestyle</div></a>
+								<li class="menu-item menu-color-lifestyle mega-menu"><a class="menu-link" href="demo-news-category.html"><div>CRRU-CWIE</div></a>
 									<div class="mega-menu-content mega-menu-style-2 border-top-0">
 										<div class="container">
 											<div class="row">
 												<ul class="sub-menu-container mega-menu-column col-lg-3">
 													<li class="menu-item">
 														<div class="nav nav-sm tab-hover flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-															<a class="nav-link bg-color-lifestyle active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Health / Fitness</a>
-															<a class="nav-link bg-color-lifestyle" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Entertainment</a>
-															<a class="nav-link bg-color-lifestyle" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Artist</a>
-															<a class="nav-link bg-color-lifestyle" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Recipes</a>
+															<a class="nav-link bg-color-lifestyle  active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">เกี่ยวกับ CRRU - CWIE</a>
+															<a class="nav-link bg-color-lifestyle" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">คณะกรรมการ</a>
+															<a class="nav-link bg-color-lifestyle" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">ผลการดำเนินงาน</a>
 														</div>
 													</li>
 												</ul>
@@ -237,7 +247,7 @@
 															</div>
 															<div class="tab-pane" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
 																<div class="row justify-content-around posts-md">
-																	<div class="col-4">
+																	<div class="col-12">
 																		<div class="entry">
 																			<div class="entry-image mb-3">
 																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/author.jpg" alt="Image 3"></a>
@@ -245,95 +255,6 @@
 																			</div>
 																			<div class="entry-title title-xs nott">
 																				<h3 class="mb-1"><a href="demo-news-single.html">A Surprising Tool to Help You Lifestyle</a></h3>
-																			</div>
-																			<div class="entry-meta">
-																				<ul>
-																					<li>John Doe</li>
-																					<li><i class="icon-time"></i>11 Mar 2021</li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-4">
-																		<div class="entry">
-																			<div class="entry-image mb-3">
-																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/painter.jpg" alt="Image 3"></a>
-																				<div class="entry-categories"><a href="demo-news-category.html" class="bg-lifestyle">Painter</a></div>
-																			</div>
-																			<div class="entry-title title-xs nott">
-																				<h3 class="mb-1"><a href="demo-news-single.html">Toyotas next minivan will let you.</a></h3>
-																			</div>
-																			<div class="entry-meta">
-																				<ul>
-																					<li>John Doe</li>
-																					<li><i class="icon-time"></i>11 Mar 2021</li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-4">
-																		<div class="entry">
-																			<div class="entry-image mb-3">
-																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/book.jpg" alt="Image 3"></a>
-																				<div class="entry-categories"><a href="demo-news-category.html" class="bg-lifestyle">Book</a></div>
-																			</div>
-																			<div class="entry-title title-xs nott">
-																				<h3 class="mb-1"><a href="demo-news-single.html">Lifestyle Your Way to Success</a></h3>
-																			</div>
-																			<div class="entry-meta">
-																				<ul>
-																					<li>John Doe</li>
-																					<li><i class="icon-time"></i>11 Mar 2021</li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="tab-pane" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-																<div class="row justify-content-around posts-md">
-																	<div class="col-4">
-																		<div class="entry">
-																			<div class="entry-image mb-3">
-																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/recipes-1.jpg" alt="Image 3"></a>
-																				<div class="entry-categories"><a href="demo-news-category.html" class="bg-lifestyle">Recipes</a></div>
-																			</div>
-																			<div class="entry-title title-xs nott">
-																				<h3 class="mb-1"><a href="demo-news-single.html">A Surprising Tool to Help You Lifestyle</a></h3>
-																			</div>
-																			<div class="entry-meta">
-																				<ul>
-																					<li>John Doe</li>
-																					<li><i class="icon-time"></i>11 Mar 2021</li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-4">
-																		<div class="entry">
-																			<div class="entry-image mb-3">
-																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/recipes-2.jpg" alt="Image 3"></a>
-																				<div class="entry-categories"><a href="demo-news-category.html" class="bg-lifestyle">Recipes</a></div>
-																			</div>
-																			<div class="entry-title title-xs nott">
-																				<h3 class="mb-1"><a href="demo-news-single.html">Toyotas next minivan will let you.</a></h3>
-																			</div>
-																			<div class="entry-meta">
-																				<ul>
-																					<li>John Doe</li>
-																					<li><i class="icon-time"></i>11 Mar 2021</li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-4">
-																		<div class="entry">
-																			<div class="entry-image mb-3">
-																				<a href="demo-news-single.html"><img src="<?php echo CANVAS;?>demos/news/images/posts/lifestyle/chef.jpg" alt="Image 3"></a>
-																				<div class="entry-categories"><a href="demo-news-category.html" class="bg-lifestyle">Chef</a></div>
-																			</div>
-																			<div class="entry-title title-xs nott">
-																				<h3 class="mb-1"><a href="demo-news-single.html">Lifestyle Your Way to Success</a></h3>
 																			</div>
 																			<div class="entry-meta">
 																				<ul>
@@ -588,3 +509,9 @@
 			</div>
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
+
+<style>
+	.nav-link{
+		color:#333;
+	}
+</style>
