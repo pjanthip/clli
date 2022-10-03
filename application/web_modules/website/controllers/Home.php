@@ -6,7 +6,7 @@ class Home extends CI_Controller
     public function index()
     {  
         $reponse = [];
-        $reponse['title'] = "Muangdev.";
+        $reponse['title'] = "CRRU Lifelong Learning Institute | สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย";
         $this->load->view('website/theme/header',$reponse);
         //$this->load->view('website/theme/navbar', ['ACTIVE' => 'HOME']);
         $this->load->view('website/home/index');

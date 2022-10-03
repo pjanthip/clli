@@ -71,8 +71,42 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item current menu-color-home"><a class="menu-link" href="demo-news.html"><div>Home</div></a></li>
-								<li class="menu-item menu-color-travel"><a class="menu-link" href="demo-news-category.html"><div>Travel</div></a></li>
+								<li class="menu-item current menu-color-home"><a class="menu-link" href="demo-news.html"><div>หน้าหลัก</div></a></li>
+								<li class="menu-item menu-color-tech  mega-menu mega-menu-small"><a class="menu-link" href="demo-news-category.html"><div>ข้อมูลหน่วยงาน</div></a>
+									<div class="mega-menu-content border-top-0 mega-menu-style-2" style="width: 470px">
+										<div class="container">
+											<div class="row">
+												<ul class="sub-menu-container mega-menu-column col-lg-6">
+													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>ข้อมูลหน่วยงาน</div></a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" href="header-light.html"><div>ข้อมูลหน่วยงาน</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="header-dark.html"><div>โครงสร้างหน่วยงาน</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="header-dark.html"><div>โครงสร้างผู้บริหารและบุคลากร</div></a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+												<ul class="sub-menu-container mega-menu-column col-lg-6">
+													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>ข้อมูลฝ่ายงาน</div></a>
+														<ul class="sub-menu-container">
+															<li class="menu-item">
+																<a class="menu-link" href="blog-single.html"><div>Credit bank</div></a>
+															</li>
+															<li class="menu-item">
+																<a class="menu-link" href="blog-single-left-sidebar.html"><div>CRRU CWIE</div></a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
 								<li class="menu-item menu-color-tech"><a class="menu-link" href="demo-news-category.html"><div>Tech</div></a></li>
 								<li class="menu-item menu-color-lifestyle mega-menu"><a class="menu-link" href="demo-news-category.html"><div>lifestyle</div></a>
 									<div class="mega-menu-content mega-menu-style-2 border-top-0">

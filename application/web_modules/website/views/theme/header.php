@@ -44,6 +44,12 @@
 
 	<!-- Document Title
 	============================================= -->
+	
+	<meta content="สถาบันการเรียนรู้ตลอดชีวิต,การเรียนรู้ตลอดชีวิต,มหาวิทยาลัยราชภัฏเชียงราย,lifelong,crru lifelong,CRRU,lifelong learning,CRRU Lifelong Learning,Reskill,Upskill,โอกาสการเรียนรู้ตลอดชีวิต,การเรียนรู้ตลอดชีวิต, อบรมระยะสั้น, การศึกาาเนื่อง, credit bank, ธนาคารหน่วยกิต,เทียบโอนหน่วยกิต, คลังหน่วยกิต, CB, CWIE, สหกิจศึกษา, COOP, สหกิจศึกษาและการศึกษาเชิงบูรณาการกับการทำงาน" name="keywords">
+	<meta content="สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย" name="description">
+	<meta content="PJanthip" name="author" />
+	<link rel="icon" href="" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php echo base_url('assets/images/ico/favicon.ico');?>">
 	<title><?php echo $title;?></title>
 
 	<style>
