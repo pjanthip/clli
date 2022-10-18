@@ -24,6 +24,7 @@
 
 	<!-- News Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="<?php echo CANVAS;?>demos/news/news.css" type="text/css" />
+	
 	<!-- / -->
 
 	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
@@ -61,3 +62,6 @@
 	</style>
 
 </head>
+
+<body class="stretched">
+	<div id="wrapper" class="clearfix">
