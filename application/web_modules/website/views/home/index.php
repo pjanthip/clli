@@ -1,6 +1,6 @@
 <?php
-$this->load->view('website/theme/navbar');
-$this->load->view('website/home/slider_banner');
+	$this->load->view('website/theme/navbar');
+	$this->load->view('website/home/slider_banner');
 ?>
 
 <section id="content">
@@ -68,7 +68,7 @@ $this->load->view('website/home/slider_banner');
 											</div>
 											<div class="entry-content clearfix mt-1 font-sarabun" style="font-size:14px; text-indent:40px;text-align: justify; text-justify: inter-word;">
 												<p>
-												สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว!  ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
+													สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว! ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
 												</p>
 											</div>
 										</div>
@@ -157,7 +157,7 @@ $this->load->view('website/home/slider_banner');
 												</div>
 											</div>
 										</div>
-										
+
 									</div>
 
 								</div>
@@ -190,7 +190,7 @@ $this->load->view('website/home/slider_banner');
 											</div>
 											<div class="entry-content clearfix mt-1 font-sarabun" style="font-size:14px; text-indent:40px;text-align: justify; text-justify: inter-word;">
 												<p>
-												สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว!  ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
+													สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว! ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
 												</p>
 											</div>
 										</div>
@@ -200,7 +200,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-lg-6">
 
 									<div class="posts-sm row col-mb-30">
-										
+
 									</div>
 
 								</div>
@@ -233,7 +233,7 @@ $this->load->view('website/home/slider_banner');
 											</div>
 											<div class="entry-content clearfix mt-1 font-sarabun" style="font-size:14px; text-indent:40px;text-align: justify; text-justify: inter-word;">
 												<p>
-												สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว!  ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
+													สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว! ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
 												</p>
 											</div>
 										</div>
@@ -243,7 +243,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-lg-6">
 
 									<div class="posts-sm row col-mb-30">
-										
+
 									</div>
 
 								</div>
@@ -276,7 +276,7 @@ $this->load->view('website/home/slider_banner');
 											</div>
 											<div class="entry-content clearfix mt-1 font-sarabun" style="font-size:14px; text-indent:40px;text-align: justify; text-justify: inter-word;">
 												<p>
-												สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว!  ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
+													สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว! ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
 												</p>
 											</div>
 										</div>
@@ -286,7 +286,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-lg-6">
 
 									<div class="posts-sm row col-mb-30">
-										
+
 									</div>
 
 								</div>
@@ -319,7 +319,7 @@ $this->load->view('website/home/slider_banner');
 											</div>
 											<div class="entry-content clearfix mt-1 font-sarabun" style="font-size:14px; text-indent:40px;text-align: justify; text-justify: inter-word;">
 												<p>
-												สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว!  ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
+													สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "ธุรกิจฝึกอบรม : Training Business Marketing" สร้างหลักสูตรอย่างไรให้ว้าว! ระหว่าง วันที่ 8 - 9 ตุลาคม 2565 ณ ห้องดอยตุง 2 โรงแรม The Riverie by Katathani Chiang Rai จังหวัดเชียงราย
 												</p>
 											</div>
 										</div>
@@ -329,7 +329,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-lg-6">
 
 									<div class="posts-sm row col-mb-30">
-										
+
 									</div>
 
 								</div>
@@ -570,53 +570,53 @@ $this->load->view('website/home/slider_banner');
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="divider divider-sm divider-rounded divider-center"></div>
 
 			<div class="section bg-transparent m-0 p-0">
 				<div class="container clearfix">
 					<div class="row">
-					<div class="col-12 mb-3">
-								<h3 class="center"><span class="font-sarabun text-dark">ผลิตภัณฑ์เซรามิก</span></h3>
+						<div class="col-12 mb-3">
+							<h3 class="center"><span class="font-sarabun text-dark">ผลิตภัณฑ์เซรามิก</span></h3>
 
-								<div class="recipe-categories justify-content-center">
-									<a href="demos/recipes/recipes.html" data-animate="fadeInUp" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic1.jpg'); ?>');">
-										<div class="recipe-category-inner">
-											<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/cup.png');?>" alt="แก้วมัค"></div>
-											<div class="recipe-category-info font-sarabun">แก้วมัค (Mug)</div>
-										</div>
-									</a>
+							<div class="recipe-categories justify-content-center">
+								<a href="demos/recipes/recipes.html" data-animate="fadeInUp" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic1.jpg'); ?>');">
+									<div class="recipe-category-inner">
+										<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/cup.png'); ?>" alt="แก้วมัค"></div>
+										<div class="recipe-category-info font-sarabun">แก้วมัค (Mug)</div>
+									</div>
+								</a>
 
-									<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="100" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic2.jpg'); ?>');">
-										<div class="recipe-category-inner">
-											<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/teapot.png');?>" alt="ชุดกาน้ำชา"></div>
-											<div class="recipe-category-info font-sarabun">ชุดกาน้ำชา</div>
-										</div>
-									</a>
+								<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="100" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic2.jpg'); ?>');">
+									<div class="recipe-category-inner">
+										<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/teapot.png'); ?>" alt="ชุดกาน้ำชา"></div>
+										<div class="recipe-category-info font-sarabun">ชุดกาน้ำชา</div>
+									</div>
+								</a>
 
-									<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="200" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic3.jpg'); ?>');">
-										<div class="recipe-category-inner">
-											<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/coffee.png');?>" alt="ชุดกาแฟ"></div>
-											<div class="recipe-category-info font-sarabun">ชุดกาแฟ</div>
-										</div>
-									</a>
+								<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="200" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic3.jpg'); ?>');">
+									<div class="recipe-category-inner">
+										<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/coffee.png'); ?>" alt="ชุดกาแฟ"></div>
+										<div class="recipe-category-info font-sarabun">ชุดกาแฟ</div>
+									</div>
+								</a>
 
-									<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="300" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic4.jpg'); ?>');">
-										<div class="recipe-category-inner">
-											<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/doll.png');?>" alt="ตุ๊กตาหล่อ"></div>
-											<div class="recipe-category-info font-sarabun">ตุ๊กตาหล่อ</div>
-										</div>
-									</a>
+								<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="300" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic4.jpg'); ?>');">
+									<div class="recipe-category-inner">
+										<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/doll.png'); ?>" alt="ตุ๊กตาหล่อ"></div>
+										<div class="recipe-category-info font-sarabun">ตุ๊กตาหล่อ</div>
+									</div>
+								</a>
 
-									<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="400" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic5.jpg'); ?>');">
-										<div class="recipe-category-inner">
-											<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/pottery.png');?>" alt="จานโชว์"></div>
-											<div class="recipe-category-info font-sarabun">จานโชว์</div>
-										</div>
-									</a>
-								</div>
-
+								<a href="demos/recipes/recipes.html" data-animate="fadeInUp" data-delay="400" class="recipe-category" style="background-image: url('<?php echo base_url('assets/images/website/ceramic5.jpg'); ?>');">
+									<div class="recipe-category-inner">
+										<div class="recipe-category-icon"><img src="<?php echo base_url('assets/images/ico/pottery.png'); ?>" alt="จานโชว์"></div>
+										<div class="recipe-category-info font-sarabun">จานโชว์</div>
+									</div>
+								</a>
 							</div>
+
+						</div>
 					</div>
 				</div>
 				<div class="section recipe-items p-0 mb-5" style="overflow: visible;background-color: #f9f9f9">
@@ -643,7 +643,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/2.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/2.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Chauffina Carr</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.9</span>
@@ -658,7 +658,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/3.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/3.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Eric Widget </a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
@@ -673,7 +673,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/4.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/4.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Quiche Hollandaise</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
@@ -688,7 +688,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/5.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/5.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Norman Gordon</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
@@ -703,7 +703,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
@@ -718,7 +718,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-										<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
+											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
@@ -734,13 +734,12 @@ $this->load->view('website/home/slider_banner');
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="d-flex justify-content-center">
-						<a href="demos/recipes/recipe-single.html" class="button btn-danger button-circle button-large m-0 fw-semibold nott ls0 text-end">ดูผลิตภัณฑ์ทั้งหมด <i class="icon-angle-right"></i></a>
-						</div>
+				<a href="demos/recipes/recipe-single.html" class="button btn-danger button-circle button-large m-0 fw-semibold nott ls0 text-end">ดูผลิตภัณฑ์ทั้งหมด <i class="icon-angle-right"></i></a>
+			</div>
 
 
 		</div> <!-- Container End -->
 	</div>
 </section><!-- #content end -->
-
