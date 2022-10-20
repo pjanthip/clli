@@ -56,28 +56,33 @@
 
 					<ul class="menu-container">
 
-						<li class="menu-item current menu-color-home">
+						<?php $current = ($ACTIVE == "home")? "current":"";?>
+						<li class="menu-item menu-color-home <?php echo $current;?>">
 							<a class="menu-link" href="<?php echo site_url(''); ?>">
 								<div>หน้าหลัก</div>
 							</a>
 						</li>
 
-						<li class="menu-item menu-color-tech  sub-menu">
+						<?php $current = ($ACTIVE == "about" || $ACTIVE == "about_structure" || $ACTIVE == "about_personels")? "current":"";?>
+						<li class="menu-item menu-color-tech sub-menu <?php echo $current;?>">
 							<a class="menu-link" href="javascript:void(0);">
 								<div>เกี่ยวกับหน่วยงาน</div>
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
-								<li class="menu-item">
+								<?php $current = ($ACTIVE == "about")? "current":"";?>
+								<li class="menu-item <?php echo $current;?>">
 									<a class="menu-link" href="<?php echo site_url('about'); ?>">
 										<div><i class="fa-solid fa-building-columns me-2"></i> ข้อมูลหน่วยงาน</div>
 									</a>
 								</li>
-								<li class="menu-item">
+								<?php $current = ($ACTIVE == "about_structure")? "current":"";?>
+								<li class="menu-item <?php echo $current;?>">
 									<a class="menu-link" href="<?php echo site_url('about/structure'); ?>">
 										<div><i class="fa-solid fa-sitemap me-2"></i> โครงสร้างหน่วยงาน</div>
 									</a>
 								</li>
-								<li class="menu-item">
+								<?php $current = ($ACTIVE == "about_personels")? "current":"";?>
+								<li class="menu-item <?php echo $current;?>">
 									<a class="menu-link" href="<?php echo site_url('about/personels'); ?>">
 										<div><i class="fa-solid fa-users me-2"></i> โครงสร้างผู้บริหารและบุคลากร</div>
 									</a>
@@ -247,12 +252,14 @@
 					<!-- Mobile Menu
 							============================================= -->
 					<ul class="menu-container mobile-primary-menu">
-						<li class="menu-item current menu-color-home">
+						<?php $current = ($ACTIVE == "home")? "current":"";?>
+						<li class="menu-item menu-color-home <?php echo $current;?>">
 							<a class="menu-link" href="<?php echo site_url(''); ?>">
 								<div>หน้าหลัก</div>
 							</a>
 						</li>
-						<li class="menu-item menu-color-tech">
+						<?php $current = ($ACTIVE == "about")? "current":"";?>
+						<li class="menu-item menu-color-tech <?php echo $current;?>">
 							<a class="menu-link" href="javascript:void(0);">
 								<div>เกี่ยวกับหน่วยงาน</div>
 							</a>
