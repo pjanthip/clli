@@ -58,6 +58,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'website/home';
 $route['about'] = 'website/about';
 $route['about/(:any)'] = 'website/about/$1';
+$route['news'] = 'website/news';
+$route['lifelong'] = 'website/lifelong';
+$route['lifelong/(:any)'] = 'website/lifelong/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

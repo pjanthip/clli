@@ -616,8 +616,9 @@
 							<div class="d-flex align-items-center col col-md-10 col-sm-8 col-xs-8" target="_blank">
 								<a class="text-dark font-sarabun fw-bold" href="https://goo.gl/maps/kFBEH63Paagqg88G6">
 									สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย
+									<span class="text-secondary fw-light ms-2 text-danger">[Google Map]</span>
 									<br />
-									<span class="text-secondary fw-light">[Google Map] XVJ2+298 ตำบล บ้านดู่ อำเภอเมืองเชียงราย เชียงราย</span>
+									<span class="text-secondary fw-light">เลขที่ 80 หมู่ 9 ตำบลบ้านดู่ อำเภอเมืองเชียงราย จังหวัดเชียงราย</span>
 								</a>
 							</div>
 						</div>

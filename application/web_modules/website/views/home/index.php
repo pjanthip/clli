@@ -2,9 +2,62 @@
 $this->load->view('website/home/slider_banner');
 ?>
 
+
+
 <section id="content">
 	<div class="content-wrap pb-0">
 		<div class="container clearfix">
+
+			<div class="row col-mb-50 justify-content-center mb-4">
+
+				<div class="col-xl-6 col-lg-8 text-center">
+					<h3 class="h1 fw-bold mb-3 font-sarabun"><span class="font-sarabun text-dark">สถาบันการเรียนรู้ตลอดชีวิต มร.ชร.</span></h3>
+				</div>
+
+				<div class="clear"></div>
+
+				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 dark shadow-sm h-shadow shadow-ts p-3" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url('<?php echo CANVAS; ?>images/blocks/preview/card-2/1.jpg') no-repeat top center / cover;">
+						<div class="card-body">
+							<h6 class="fw-normal text-uppercase ls2 text-white-50 mb-2">Lifelong Learning</h6>
+							<h3 class="card-title h2 fw-bold mb-4"><span class="font-sarabun text-white">หลักสูตรเสริมทักษะและพัฒนาการเรียนรู้ตลอดชีวิต</span></h3>
+							<p class="card-text mb-5">Up-Skills / Re-Skills / New Skills</p>
+							<div class="d-grid gap-2">
+							<a href="https://lifelong.crru.ac.th/" target="_blank" class="btn btn-primary font-sarabun ">เข้าชมเว็บไซต์</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 shadow-sm h-shadow shadow-ts p-3" style="background: url('<?php echo CANVAS; ?>images/blocks/preview/card-2/2.jpg') no-repeat top center / cover;">
+						<div class="card-body">
+							<h6 class="fw-normal text-uppercase ls2 text-black-50 mb-2">Credit bank</h6>
+							<h3 class="card-title h2 fw-bold mb-4"><span class="font-sarabun text-dark">คลังหน่วยกิต</span></h3>
+							<p class="card-text mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, est blanditiis id aut enim consequuntur. Voluptates error dicta assumenda voluptatem!</p>
+							<div class="d-grid gap-2">
+							<a href="https://creditbank.crru.ac.th/" target="_blank" class="btn btn-primary font-sarabun ">เข้าชมเว็บไซต์</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 dark shadow-sm h-shadow shadow-ts p-3" style="background: url('<?php echo CANVAS; ?>images/blocks/preview/card-2/3.jpg') no-repeat center center / cover;">
+						<div class="card-body">
+							<h6 class="fw-normal text-uppercase ls2 text-white-50 mb-2">CWIE</h6>
+							<h3 class="card-title h2 fw-bold mb-4 text-white"><span class="font-sarabun text-white">สหกิจศึกษาและการศึกษาเชิงบูรณาการกับการทำงาน</span></h3>
+							<p class="card-text mb-5">Lorem ipsum dolor sit amett</p>
+							
+							<div class="d-grid gap-2">
+							<a href="https://cwie.crru.ac.th/" target="_blank" class="btn btn-primary font-sarabun ">เข้าชมเว็บไซต์</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
 			<div class="row clearfix">
 				<div class="col-lg-8">
 					<nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -627,7 +680,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/1.png');?>" alt="image">
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/1.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Gunther Beard</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.6</span>
@@ -642,11 +695,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/2.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/2.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/2.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Chauffina Carr</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.9</span>
@@ -661,11 +710,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/3.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/3.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/3.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Eric Widget </a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
@@ -680,11 +725,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/4.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/4.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/4.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Quiche Hollandaise</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
@@ -699,11 +740,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/5.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/5.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/5.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Norman Gordon</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
@@ -718,11 +755,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/6.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/6.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
@@ -737,11 +770,7 @@ $this->load->view('website/home/slider_banner');
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
-<<<<<<< HEAD
-											<img src="http://localhost/template/canvas/Latest-HTML/demos/recipes/images/popular/6.png" alt="image">
-=======
-										<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/7.png');?>" alt="image">
->>>>>>> 4695723510bd54aecaa12c7256c4381cf6671fce
+											<img src="<?php echo base_url('assets/theme/canvas/demos/recipes/images/popular/7.png'); ?>" alt="image">
 											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
 												<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
 												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
