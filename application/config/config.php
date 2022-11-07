@@ -15,6 +15,7 @@ define('APPBASE', PROTOCAL ."://{$_SERVER['SERVER_NAME']}".str_replace(basename(
 |* Template
 */
 define('CANVAS',APPBASE.'assets/theme/canvas/');
+define('eliteadmin',APPBASE.'assets/theme/eliteadmin/');
 
 
 /*

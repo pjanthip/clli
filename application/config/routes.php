@@ -51,9 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //## for Administrator
-//$route['backend/(:any)/(:any)'] = 'backend/$1/$2';
-//$route['backend/(:any)'] = 'backend/$1';
-//$route['backend'] = 'backend/home';
+$route['backend/(:any)/(:any)'] = 'backend/$1/$2';
+$route['backend/(:any)'] = 'backend/$1';
+$route['backend'] = 'backend/home';
 
 $route['default_controller'] = 'website/home';
 $route['about'] = 'website/about';
