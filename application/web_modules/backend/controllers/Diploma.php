@@ -38,5 +38,22 @@ class Diploma extends CI_Controller
         $this->load->view('backend/diploma/view_all', $reponse);
         $this->load->view('backend/theme/footer', $reponse);
     }
+
+    public function form_add()
+    {
+        $reponse = $this->main_variable();
+
+        $reponse['title_page'] = 'ข้อมูลวุฒิบัตร';
+        $reponse['icon_page'] = '<i class="fa-solid fa-award"></i>';
+        $reponse['page'] = 'diploma';
+        $reponse['active'] = 'diploma';
+        $reponse['breadcrumb']=array(
+                                        'ข้อมูลวุฒิบัตร' => array(site_url('diploma'),'active'),
+                                    );
+
+        $this->load->view('backend/theme/header', $reponse);
+        $this->load->view('backend/diploma/form_add', $reponse);
+        $this->load->view('backend/theme/footer', $reponse);
+    }
 }
  

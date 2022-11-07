@@ -20,10 +20,10 @@
                 <li class="nav-small-cap">--- เมนูหลัก</li>
                 <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend');?>"><i class="icon-speedometer"></i><span class="hide-menu">หน้าหลัก</span></a>
                 <li class="nav-small-cap">--- วุฒิบัตร</li>
-                <li> <a class="waves-effect waves-dark" href="<?php echo base_url('backend/diploma/'); ?>">
+                <li> <a class="waves-effect waves-dark" href="<?php echo base_url('backend/diploma/form_add'); ?>">
                         <i class="fa-solid fa-barcode"></i>ออกเลขวุฒิบัตร </a>
                 </li>
-                <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)">
+                <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend/diploma/');?>">
                         <i class="fa-solid fa-award"></i>ข้อมูลวุฒิบัตร </a>
                 </li>
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)">
