@@ -10,6 +10,8 @@
     <link href="<?php echo eliteadmin;?>assets/node_modules/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
     <link href="<?php echo eliteadmin;?>assets/node_modules/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
     <link href="<?php echo eliteadmin;?>assets/node_modules/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+    
 
 <?php
 $this->load->view('backend/theme/navbar');
@@ -146,11 +148,49 @@ $this->load->view('backend/theme/sidebar');
                                     </div>
                                     
                                 </div>
+                                <div class="col-md-4 mb-3 bg-secondary d-flex flex-column justify-content-center align-items-center">
+                                    <span class="fs-4 align-middle fw-bold">Ref.Code 1001010001/2565 - 1001010100/2565</span>
+                                </div>
                             </div>
-                        
                             <div class="row">
-                                
+                            <div class="table-responsive">
+                                    <table id="config-table" class="table display table-striped border no-wrap">
+                                        <thead>
+                                            <tr class="">
+                                                <th class="col-md-1 text-center">ลำดับที่</th>
+                                                <th class="col-md-2 text-center">Ref.Code</th>
+                                                <th class="col-md-1 text-center">คำนำหน้า</th>
+                                                <th class="col-md-2 text-center">ชื่อ</th>
+                                                <th class="col-md-2 text-center">สกุล</th>
+                                                <th class="col-md-3 text-center">หน่วยงาน</th>
+                                                <th class="col-md-1 text-center">Tool</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Tiger</td>
+                                                <td>Nixon</td>
+                                                <td>System Architect</td>
+                                                <td>Edinburgh</td>
+                                                <td>61</td>
+                                                <td>2011/04/25</td>
+                                                <td>
+                                                    <div class="btn-group btn-group-sm" role="group">
+                                                        <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        จัดการ
+                                                        </button>
+                                                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                            <li><a class="dropdown-item text-dark" href="#"><i class="fa-solid fa-pen-to-square text-warning"></i> แก้ไข</a></li>
+                                                            <li><a class="dropdown-item text-dark" href="#"><i class="fa-solid fa-trash-can text-danger"></i> ลบ</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -186,6 +226,19 @@ $this->load->view('backend/theme/sidebar');
     <script src="<?php echo eliteadmin;?>assets/node_modules/bootstrap-daterangepicker/daterangepicker.js"></script>
     
     <script src="<?php echo eliteadmin;?>assets/node_modules/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js" type="text/javascript"></script>
+
+    <!-- This is data table -->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+<!-- start - This is for export functionality only -->
+<script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.12.1/i18n/th.json"></script>
 <script>
     // Date & Time
     $('.datetime').daterangepicker({
@@ -237,6 +290,15 @@ $this->load->view('backend/theme/sidebar');
                 verticalbuttons: true,
                 min: 2565,
                 max: 3000
+            });
+
+            $('#config-table').DataTable({
+                responsive: true,
+            "oLanguage": {
+                        "sUrl": "https://cdn.datatables.net/plug-ins/1.12.1/i18n/th.json"},
+                        pageLength: 100,
+                        "lengthMenu": [ 10, 25, 50, 75, 100, 500, 1000 ]
+                        
             });
         });
     </script>
