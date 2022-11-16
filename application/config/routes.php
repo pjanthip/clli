@@ -61,6 +61,12 @@ $route['about/(:any)'] = 'website/about/$1';
 $route['news'] = 'website/news';
 $route['lifelong'] = 'website/lifelong';
 $route['lifelong/(:any)'] = 'website/lifelong/$1';
+$route['creditbank'] = 'website/creditbank';
+$route['creditbank/(:any)'] = 'website/creditbank/$1';
+$route['cwie'] = 'website/cwie';
+$route['cwie/(:any)'] = 'website/cwie/$1';
+$route['ceramic'] = 'website/ceramic';
+$route['ceramic/(:any)'] = 'website/ceramic/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

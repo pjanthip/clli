@@ -35,4 +35,28 @@ class Lifelong extends CI_Controller
         $this->load->view('website/theme/include/script');
         $this->load->view('website/theme/footer');
     }
+
+    public function cooperates()
+    {  
+        $reponse = [];
+        $reponse['title'] = "CRRU Lifelong Learning Institute | สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย";
+        $this->load->view('website/theme/header',$reponse);
+        $this->load->view('website/theme/navbar', ['ACTIVE' => 'lifelong_cooperates']);
+        $this->load->view('website/lifelong/cooperates');
+        $this->load->view('website/theme/include/script');
+        $this->load->view('website/theme/footer');
+    }
+
+    
+
+    public function experts()
+    {  
+        $reponse = [];
+        $reponse['title'] = "CRRU Lifelong Learning Institute | สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย";
+        $this->load->view('website/theme/header',$reponse);
+        $this->load->view('website/theme/navbar', ['ACTIVE' => 'lifelong_experts']);
+        $this->load->view('website/lifelong/experts');
+        $this->load->view('website/theme/include/script');
+        $this->load->view('website/theme/footer');
+    }
 }// END CLASS
