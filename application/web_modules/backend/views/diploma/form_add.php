@@ -149,7 +149,7 @@ $this->load->view('backend/theme/sidebar');
                                     
                                 </div>
                                 <div class="col-md-4 mb-3 bg-secondary d-flex flex-column justify-content-center align-items-center">
-                                    <span class="fs-4 align-middle fw-bold">Ref.Code 1001010001/2565 - 1001010100/2565</span>
+                                    <span class="fs-5 align-middle fw-bold">Ref.Code 1001010001/2565 - 1001010100/2565</span>
                                 </div>
                             </div>
                             <div class="row">
