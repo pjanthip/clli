@@ -17,6 +17,35 @@ $this->load->view('website/home/slider_banner');
 				<div class="clear"></div>
 
 				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 dark ">
+						<div class="card-body">
+							<a href="https://lifelong.crru.ac.th" target="blank">
+								<img class="rounded" src="<?php echo base_url("assets/images/website/cover_lifelong.png")?>" alt="lifelong education"/>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 dark ">
+						<div class="card-body">
+							<a href="https://creditbank.crru.ac.th" target="blank">
+								<img class="rounded" src="<?php echo base_url("assets/images/website/cover_creditbank.png")?>" alt="credit bank"/>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-md-6">
+					<div class="card border-0 dark ">
+						<div class="card-body">
+							<a href="https://cwie.crru.ac.th" target="blank">
+								<img class="rounded" src="<?php echo base_url("assets/images/website/cover_cwie.png")?>" alt="cwie"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-xl-4 col-md-6">
 					<div class="card border-0 dark shadow-sm h-shadow shadow-ts p-3" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)), url('<?php echo CANVAS; ?>images/blocks/preview/card-2/1.jpg') no-repeat top center / cover;">
 						<div class="card-body">
 							<h6 class="fw-normal text-uppercase ls2 text-white-50 mb-2">Lifelong Learning</h6>
@@ -54,7 +83,7 @@ $this->load->view('website/home/slider_banner');
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="clear"></div>
 
