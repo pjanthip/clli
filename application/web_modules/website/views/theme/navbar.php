@@ -90,13 +90,13 @@
 							</ul>
 						</li>
 
-						<li class="menu-item menu-color-fashion">
+						<li class="menu-item menu-color-lifestyle">
 							<a class="menu-link" href="<?php echo site_url('news'); ?>">
 								<div>ข่าวประชาสัมพันธ์</div>
 							</a>
 						</li>
 
-						<li class="menu-item menu-color-lifestyle sub-menu">
+						<li class="menu-item menu-color-fashion sub-menu">
 							<a class="menu-link" href="javascript:void(0);">
 								<div>Lifelong Learning</div>
 							</a>
@@ -107,7 +107,8 @@
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/course'); ?>">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/course'); ?>"> -->
+									<a class="menu-link" href="https://lifelong.crru.ac.th/course" target="_blank">
 										<div><i class="fa-regular fa-bookmark me-2"></i> หลักสูตรทั้งหมด</div>
 									</a>
 								</li>
@@ -281,12 +282,12 @@
 								</li>
 							</ul>
 						</li>
-						<li class="menu-item menu-color-fashion">
+						<li class="menu-item menu-color-lifestyle">
 							<a class="menu-link" href="<?php echo site_url('news'); ?>">
 								<div>ข่าวประชาสัมพันธ์</div>
 							</a>
 						</li>
-						<li class="menu-item menu-color-lifestyle">
+						<li class="menu-item menu-color-fashion">
 							<a class="menu-link" href="javascript:void(0);">
 								<div>Lifelong Learning</div>
 							</a>
@@ -297,7 +298,8 @@
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/course'); ?>">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/course'); ?>"> -->
+									<a class="menu-link" href="https://lifelong.crru.ac.th/course">
 										<div><i class="fa-regular fa-bookmark me-2"></i> หลักสูตรทั้งหมด</div>
 									</a>
 								</li>
