@@ -20,7 +20,6 @@
 
 	<!-- Theme Color Stylesheet -->
 	<link rel="stylesheet" href="<?php echo CANVAS;?>css/colors.php?color=FF8600" type="text/css" />
-	<link rel="stylesheet" href="<?php echo CANVAS;?>demos/news/css/fonts.css" type="text/css" />
 
 	<!-- News Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="<?php echo CANVAS;?>demos/news/news.css" type="text/css" />
