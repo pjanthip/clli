@@ -1,15 +1,6 @@
-<section id="page-title">
-
-    <div class="container clearfix font-sarabun">
-        <h1>ข่าวประชาสัมพันธ์</h1>
-        <span>News</span>
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">หน้าหลัก</a></li>
-            <li class="breadcrumb-item active" aria-current="page">ข่าวประชาสัมพันธ์</li>
-        </ol>
-    </div>
-
-</section>
+<?php
+$this->load->view('website/theme/include/breadcrumb');
+?>
 
 <section id="content">
     <div class="content-wrap">

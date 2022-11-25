@@ -90,7 +90,9 @@
 							</ul>
 						</li>
 
-						<li class="menu-item menu-color-lifestyle">
+						
+						<?php $current = ($ACTIVE == "news")? "current":"";?>
+						<li class="menu-item menu-color-lifestyle <?php echo $current;?>">
 							<a class="menu-link" href="<?php echo site_url('news'); ?>">
 								<div>ข่าวประชาสัมพันธ์</div>
 							</a>
@@ -201,17 +203,20 @@
 							</a>
 							<ul class="sub-menu-container border-top-0">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('mis'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
 										<div><i class="fa-solid fa-user-group me-2"></i> Personels</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('mis'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
 										<div><i class="fa-solid fa-user-tie me-2"></i> Executives</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('admin'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('admin'); ?>"> -->
 										<div><i class="fa-solid fa-screwdriver-wrench me-2"></i> Administrator</div>
 									</a>
 								</li>
@@ -282,7 +287,8 @@
 								</li>
 							</ul>
 						</li>
-						<li class="menu-item menu-color-lifestyle">
+						<?php $current = ($ACTIVE == "news")? "current":"";?>
+						<li class="menu-item menu-color-lifestyle <?php echo $current;?>">
 							<a class="menu-link" href="<?php echo site_url('news'); ?>">
 								<div>ข่าวประชาสัมพันธ์</div>
 							</a>
