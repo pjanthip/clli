@@ -104,7 +104,7 @@
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/opening'); ?>">
+									<a class="menu-link" href="https://lifelong.crru.ac.th/" target="_blank">
 										<div><i class="fa-solid fa-fire me-2"></i> หลักสูตรที่กำลังเปิดรับสมัคร</div>
 									</a>
 								</li>
@@ -115,12 +115,14 @@
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/cooperates'); ?>">
+								<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/cooperates'); ?>"> -->
 										<div><i class="fa-regular fa-building me-2"></i> เครือข่ายความร่วมมือ</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/experts'); ?>">
+								<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/experts'); ?>"> -->
 										<div><i class="fa-solid fa-chalkboard-user me-2"></i> อาจารย์ & วิทยากร</div>
 									</a>
 								</li>
@@ -137,12 +139,12 @@
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('creditbank'); ?>">
+									<a class="menu-link" href="https://creditbank.crru.ac.th/about" target="_blank">
 										<div><i class="fa-solid fa-graduation-cap me-2"></i> สะสมหน่วยกิต</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('creditbank/predegree'); ?>">
+									<a class="menu-link" href="https://creditbank.crru.ac.th/about" target="_blank">
 										<div><i class="fa-solid fa-users-rectangle me-2"></i> เรียนรวม</div>
 									</a>
 								</li>
@@ -159,12 +161,12 @@
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('cwie/board'); ?>">
+									<a class="menu-link" href="https://cwie.crru.ac.th/board" target="_blank">
 										<div><i class="fa-solid fa-sitemap me-2"></i> คณะกรรมการ</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('cwie'); ?>">
+									<a class="menu-link" href="https://cwie.crru.ac.th/operation" target="_blank">
 										<div><i class="fa-solid fa-square-poll-vertical me-2"></i> ผลการดำเนินงาน</div>
 									</a>
 								</li>
@@ -181,17 +183,20 @@
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic/learning'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic/learning'); ?>"> -->
 										<div><i class="fa-brands fa-leanpub me-2"></i> แหล่งเรียนรู้ศูนย์เซรามิก</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic/products'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic/products'); ?>"> -->
 										<div><i class="fa-solid fa-mug-saucer me-2"></i> สั่งผลิตภัณฑ์เซรามิก</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic'); ?>"> -->
 										<div><i class="fa-solid fa-font-awesome me-2"></i> เกี่ยวกับเซรามิก มร.ชร.</div>
 									</a>
 								</li>
@@ -299,23 +304,26 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/opening'); ?>">
+									<a class="menu-link" href="https://lifelong.crru.ac.th/" target="_blank">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/opening'); ?>"> -->
 										<div><i class="fa-solid fa-fire me-2"></i> หลักสูตรที่กำลังเปิดรับสมัคร</div>
 									</a>
 								</li>
 								<li class="menu-item">
 									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/course'); ?>"> -->
-									<a class="menu-link" href="https://lifelong.crru.ac.th/course">
+									<a class="menu-link" href="https://lifelong.crru.ac.th/course" target="_blank">
 										<div><i class="fa-regular fa-bookmark me-2"></i> หลักสูตรทั้งหมด</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/cooperates'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/cooperates'); ?>"> -->
 										<div><i class="fa-regular fa-building me-2"></i> เครือข่ายความร่วมมือ</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('lifelong/experts'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/experts'); ?>"> -->
 										<div><i class="fa-solid fa-chalkboard-user me-2"></i> อาจารย์ & วิทยากร</div>
 									</a>
 								</li>
@@ -332,12 +340,14 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('creditbank'); ?>">
+									<a class="menu-link" href="https://creditbank.crru.ac.th/about" target="_blank">
+									<!-- <a class="menu-link" href="<?php echo site_url('creditbank'); ?>"> -->
 										<div><i class="fa-solid fa-graduation-cap me-2"></i> สะสมหน่วยกิต</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('creditbank/predegree'); ?>">
+									<a class="menu-link" href="https://creditbank.crru.ac.th/about" target="_blank">
+									<!-- <a class="menu-link" href="<?php echo site_url('creditbank/predegree'); ?>"> -->
 										<div><i class="fa-solid fa-users-rectangle me-2"></i> เรียนรวม</div>
 									</a>
 								</li>
@@ -354,12 +364,14 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('cwie/board'); ?>">
+									<a class="menu-link" href="https://cwie.crru.ac.th/board" target="_blank">
+									<!-- <a class="menu-link" href="<?php echo site_url('cwie/board'); ?>"> -->
 										<div><i class="fa-solid fa-sitemap me-2"></i> คณะกรรมการ</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('cwie'); ?>">
+									<a class="menu-link" href="https://cwie.crru.ac.th/operation" target="_blank">
+									<!-- <a class="menu-link" href="<?php echo site_url('cwie'); ?>"> -->
 										<div><i class="fa-solid fa-square-poll-vertical me-2"></i> ผลการดำเนินงาน</div>
 									</a>
 								</li>
@@ -376,17 +388,20 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic/learning'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic/learning'); ?>"> -->
 										<div><i class="fa-brands fa-leanpub me-2"></i> แหล่งเรียนรู้ศูนย์เซรามิก</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic/products'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic/products'); ?>"> -->
 										<div><i class="fa-solid fa-mug-saucer me-2"></i> สั่งผลิตภัณฑ์เซรามิก</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('ceramic'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('ceramic'); ?>"> -->
 										<div><i class="fa-solid fa-font-awesome me-2"></i> เกี่ยวกับศูนย์เซรามิก มร.ชร.</div>
 									</a>
 								</li>
@@ -398,17 +413,20 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('mis'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
 										<div><i class="fa-solid fa-user-group me-2"></i> Personels</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('mis'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
 										<div><i class="fa-solid fa-user-tie me-2"></i> Executives</div>
 									</a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="<?php echo site_url('mis'); ?>">
+									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
+									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
 										<div><i class="fa-solid fa-screwdriver-wrench me-2"></i> Administrator</div>
 									</a>
 								</li>
