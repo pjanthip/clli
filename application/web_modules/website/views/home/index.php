@@ -501,7 +501,7 @@ $this->load->view('website/home/slider_banner');
 
 		<!-- Fullwidth Carousel
 				============================================= -->
-		<div class="section bg-transparent m-0">
+		<div class="section bg-transparent m-0 pb-0">
 			<div class="container clearfix">
 				<h4 class="mb-3 ls1 text-uppercase fw-bold"><span class="font-sarabun text-dark"><i class="fa-regular fa-images"></i> ภาพกิจกรรม</span></h4>
 				<!-- Owl Carousel
@@ -652,7 +652,7 @@ $this->load->view('website/home/slider_banner');
 				</div>
 			</div>
 
-			<div class="divider divider-sm divider-rounded divider-center"></div>
+			<!-- <div class="divider divider-sm divider-rounded divider-center"></div>
 
 			<div class="section bg-transparent m-0 p-0">
 				<div class="container clearfix">
@@ -705,7 +705,6 @@ $this->load->view('website/home/slider_banner');
 						<div class="col-lg-12">
 							<div class="row g-0">
 
-								<!-- Item 1 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -720,7 +719,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 2 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -735,7 +733,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 3 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -750,7 +747,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 4 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -765,7 +761,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 5 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -780,7 +775,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 6 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -795,7 +789,6 @@ $this->load->view('website/home/slider_banner');
 									</div>
 								</div>
 
-								<!-- Item 6 -->
 								<div class="col-sm-3 col-6">
 									<div class="card">
 										<div class="card-body">
@@ -818,7 +811,7 @@ $this->load->view('website/home/slider_banner');
 
 			<div class="d-flex justify-content-center">
 				<a href="demos/recipes/recipe-single.html" class="button btn-danger button-circle button-large m-0 fw-semibold nott ls0 text-end">ดูผลิตภัณฑ์ทั้งหมด <i class="icon-angle-right"></i></a>
-			</div>
+			</div> -->
 
 
 		</div> <!-- Container End -->

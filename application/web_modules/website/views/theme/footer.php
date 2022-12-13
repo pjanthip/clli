@@ -7,7 +7,7 @@
                     <div class="copyrights-menu copyright-links clearfix">
                         <a href="https://goo.gl/maps/wr6k1u1Ti1EKJdY1A" target="_blank">สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย &nbsp; 80 หมู่ 9 ตำบลบ้านดู่ อำเภอเมือง จังหวัดเชียงราย 57100</a>
                     </div>
-                    Copyrights © 2021 All Rights Reserved by <a href="https://clli.crru.ac.th/">CLLI.</a>
+                    Copyrights © 2021 All Rights Reserved by <a href="<?php echo site_url()?>">CLLI.</a>
                 </div>
 
                 <!-- <div class="col-12 col-lg-auto text-center text-lg-end">
