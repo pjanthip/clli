@@ -208,8 +208,8 @@
 							</a>
 							<ul class="sub-menu-container border-top-0">
 								<li class="menu-item">
-									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
-									<!-- <a class="menu-link" href="<?php echo site_url('mis'); ?>"> -->
+									<!-- <a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;"> -->
+									<a class="menu-link" href="<?php echo site_url('backend'); ?>">
 										<div><i class="fa-solid fa-user-group me-2"></i> Personels</div>
 									</a>
 								</li>

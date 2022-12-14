@@ -64,7 +64,8 @@ class Login extends CI_Controller
             $login_username = $this->input->post('login_username');
             $login_password = $this->input->post('login_password');
 
-            
+            $this->session->set_flashdata('errors', 'Username หรือ Password ไม่ถูกต้อง');
+            $this->index();
         }
         // On validation fail
         else {
