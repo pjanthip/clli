@@ -154,6 +154,17 @@ $(function() {
         })
     <?php $this->session->set_flashdata('errors', false);
     } ?>
+
+<?php if ($this->session->flashdata('info')) { ?>
+        var textData = <?php echo json_encode($this->session->flashdata('info')) ?>;
+        Swal.fire({
+            icon: 'info',
+            title: 'แจ้งเตือน',
+            text: textData,
+            confirmButtonText: 'ตกลง'
+        })
+    <?php $this->session->set_flashdata('info', false);
+    } ?>
 </script>
     
 </body>

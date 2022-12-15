@@ -72,12 +72,58 @@ class Login extends CI_Controller
             $login_username = $this->input->post('login_username');
             $login_password = $this->input->post('login_password');
 
-            $this->session->set_flashdata('errors', 'Username หรือ Password ไม่ถูกต้อง');
-            $this->index();
+            $this->db->select('personnels_username, personnels_password, showStatus, personnels_id');
+            $query = $this->db->get_where('tb_personnels', array('personnels_username' => $login_username));
+
+            // username exist guard
+            if (!$query->num_rows() > 0) {
+                $this->session->set_flashdata('errors', 'ไม่พบชื่อบัญชีนี้ในระบบ');
+                $this->index();
+                return;
+            }
+
+            // query variable
+            $password = $query->row()->personnels_password;
+            $status = $query->row()->showStatus;
+            $user_id = $query->row()->personnels_id;
+
+            // check password guard
+            if ($password !== md5($login_password)) {
+                $this->session->set_flashdata('errors', 'รหัสผ่านไม่ถูกต้อง');
+                $this->index();
+                return;
+            }
+
+            switch ($status) {
+                case '1': // บุคลากร
+                    $session_userdata = array(
+                        'user_id' => $user_id,
+                        'user_name' => $query->row()->personnels_username,
+                        'is_admin' => TRUE,
+                        'type' => '1'
+                    );
+                    break;
+                default:
+                    $this->session->set_flashdata('info', 'กรุณารอการอนุมัติจากผู้ดูแลระบบ');
+                    $this->index();
+                    return;
+            }
+
+            // set session
+            $this->session->set_userdata($session_userdata);
+
+            redirect('backend');
         }
         // On validation fail
         else {
             $this->index();
         }
+    }
+
+    public function on_logout()
+    {
+        $this->session->sess_destroy();
+
+        redirect('backend/login');
     }
 }
