@@ -38,6 +38,14 @@ class Login extends CI_Controller
 
     public function on_login()
     {
+        $data_session = array(
+			'fulllname' => '',
+			'is_admin_logged_in' => FALSE,
+			'user_id' => '',
+			'user_type' => ''
+		);
+		$this->session->set_userdata($data_session);
+
         // validate rule username
         $this->form_validation->set_rules(
             'login_username',
