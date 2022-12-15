@@ -18,6 +18,8 @@
     <link href="<?php echo eliteadmin;?>university/dist/css/style.min.css" rel="stylesheet">
     <!-- Import Fontawesome -->
     <script src="https://kit.fontawesome.com/b377fabc22.js" crossorigin="anonymous"></script>
+    <!-- sweet alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,7 +37,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">CLLI MIS.</p>
+            <p class="loader__label">CLLI MIS.1</p>
         </div>
     </div>
     <!-- ============================================================== -->
@@ -50,12 +52,13 @@
                         <h3 class="text-center m-b-20">CLLI MIS</h3>
                         <div class="form-group ">
                             <div class="col-xs-12">
-                                <input name="login_username" class="form-control text-center" type="text" required placeholder="Username"> </div>
-                                    <?php echo form_error('login_username', '<div class="text-danger" style="font-size:14px;">', '</div>'); ?>
+                                <input name="login_username" class="form-control text-center" type="text" placeholder="Username"> </div>
+                                    <?php echo form_error('login_username', '<div class="text-danger mt-1" style="font-size:12px;"><i class="fa-solid fa-triangle-exclamation"></i> ', '</div>'); ?>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input name="login_password" class="form-control text-center" type="password" required placeholder="Password"> </div>
+                                <input name="login_password" class="form-control text-center" type="password" placeholder="Password"> </div>
+                                    <?php echo form_error('login_password', '<div class="text-danger mt-1" style="font-size:12px;"><i class="fa-solid fa-triangle-exclamation"></i> ', '</div>'); ?>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
@@ -114,8 +117,9 @@
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo eliteadmin;?>assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!--Custom JavaScript -->
-    <script type="text/javascript">
-        $(function() {
+    <script type="text/javascript"> 
+
+$(function() {
             $(".preloader").fadeOut();
         });
         $(function() {
@@ -128,7 +132,29 @@
             $("#loginform").slideUp();
             $("#recoverform").fadeIn();
         });
-    </script>
+
+<?php if ($this->session->flashdata('success')) { ?>
+        var textData = <?php echo json_encode($this->session->flashdata('success')) ?>;
+        Swal.fire({
+            icon: 'success',
+            title: 'ดำเนินการสำเร็จ',
+            text: textData,
+            confirmButtonText: 'ตกลง'
+        })
+    <?php $this->session->set_flashdata('success', false);
+    } ?>
+
+    <?php if ($this->session->flashdata('errors')) { ?>
+        var textData = <?php echo json_encode($this->session->flashdata('errors')) ?>;
+        Swal.fire({
+            icon: 'error',
+            title: 'ล้มเหลว',
+            text: textData,
+            confirmButtonText: 'ตกลง'
+        })
+    <?php $this->session->set_flashdata('errors', false);
+    } ?>
+</script>
     
 </body>
 
