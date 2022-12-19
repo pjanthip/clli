@@ -49,7 +49,7 @@ class News extends CI_Controller
         $reponse['title'] = "CRRU Lifelong Learning Institute | สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย";
         $reponse['id'] = $id;
 
-        $reponse['topic_news'] = 'หัวข้อข่าวครับผม';
+        $reponse['topic_news'] = 'อบรมเชิงปฏิบัติการ "การทำตุงและโคมประดิษฐ์"';
 
         $reponse['title'] = 'ข่าวประชาสัมพันธ์ | CRRU Lifelong Learning Institute';
         $reponse['keywords'] = '';
@@ -61,7 +61,7 @@ class News extends CI_Controller
         $reponse['ACTIVE'] = 'news';
         $reponse['breadcrumb'] = array(
             'ข่าวประชาสัมพันธ์' => array(site_url('news'), ''),
-            $reponse['topic_news'] => array(site_url('news/detail/1234'), 'active')
+            $reponse['topic_news'] => array(site_url('news/detail/1'), 'active')
         );
 
         $this->load->view('website/theme/header', $reponse);

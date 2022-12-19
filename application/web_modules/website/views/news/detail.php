@@ -29,7 +29,7 @@ $this->load->view('website/theme/include/breadcrumb');
 									============================================= -->
                             <div class="entry-meta">
                                 <ul>
-                                    <li><i class="icon-calendar3"></i> 24 พ.ย. 65 9:57</li>
+                                    <li><i class="icon-calendar3"></i> 11 พ.ย. 65 20:00</li>
                                     <li><a href="#"><i class="icon-user"></i> สถาบันการเรียนรู้ตลอดชีวิต</a></li>
                                     <li><i class="icon-folder-open"></i> <a href="#">CLLI</a></li>
                                     <li><a href="#"><i class="icon-camera-retro"></i></a></li>
@@ -39,7 +39,7 @@ $this->load->view('website/theme/include/breadcrumb');
                             <!-- Entry Image
 									============================================= -->
                             <div class="entry-image">
-                                <a href="#"><img src="<?php echo CANVAS;?>images/blog/full/1.jpg" alt="Blog Single"></a>
+                                <a href="#"><img src="<?php echo base_url('assets/images/upload/album/1001.jpg'); ?>" alt="Blog Single"></a>
                             </div><!-- .entry-image end -->
 
                             <!-- Entry Content
@@ -47,16 +47,9 @@ $this->load->view('website/theme/include/breadcrumb');
                             <div class="entry-content mt-0">
 
                                 <div id="content_news" class="font-sarabun mb-4" style="text-align:justify;">
-                                “แฮนด์คราฟต์ส หยวน เธียเตอร์”(Handcrafts Yuan Theatre) ซึ่งเป็นส่วนหนึ่งของศูนย์จัดแสดงงานศิลปะและงานฝีมือซานตง (Shandong Arts & Crafts Exhibition Center) ในเมืองจี่หนาน มณฑลซานตง ทางตะวันออกของจีน ได้เปิดต้อนรับสาธารณชนอย่างเป็นทางการเมื่อไม่นานมานี้
-                                ในฐานะโรงละครวันหยุดสุดสัปดาห์แห่งแรกในมณฑลซานตง “แฮนด์คราฟต์ส หยวน เธียเตอร์” เปิดโอกาสให้ประชาชนและนักท่องเที่ยวได้สัมผัสและรู้สึกถึงความเจริญรุ่งเรืองในอดีตของเมืองจี่หนาน ผ่านการแสดงออกทางวัฒนธรรมและศิลปะอย่างสร้างสรรค์
-
-“แฮนด์คราฟต์ส หยวน เธียเตอร์” สร้างโดยบริษัท จี่หนาน หมิงฝูเฉิง คัลเจอรัล ทัวริซึม อินเวสท์เมนท์ โฮลดิง จำกัด (Jinan Mingfucheng Cultural Tourism Investment Holding Co.) เพื่อนำเสนอการแสดงแบบ “ดื่มด่ำ” ที่ทันสมัยและดึงดูดใจมากที่สุด โดยมีทั้งโรงละครเพลงคลาสสิก โรงละครทั่วไป เวทีดนตรีระดับโลก พื้นที่เต้นรำ โซนดนตรีอิเล็กทรอนิกส์ รวมถึงการแสดงอีกมากมาย
-เมื่อเดือนกันยายนที่ผ่านมา ศูนย์จัดแสดงงานศิลปะและงานฝีมือซานตงได้เปิดต้อนรับสาธารณชนเป็นครั้งแรกในเมืองจี่หนาน ซึ่งถือเป็นก้าวสำคัญในการสร้างแบรนด์ “ซานตง แฮนด์คราฟต์ส” (Shandong Handcrafts)
-
-ในฐานะแลนด์มาร์กแห่งใหม่ของมณฑลซานตง ศูนย์จัดแสดงงานศิลปะและงานฝีมือซานตงได้รวบรวมงานศิลปะทำมือและผลงานออกแบบต้นฉบับจากทั่วประเทศ พร้อมบูรณาการงานฝีมือเข้ากับวิถีชีวิตสมัยใหม่ เพื่อแสดงให้โลกเห็นถึงเสน่ห์ของวัฒนธรรมงานฝีมือและส่งเสริมการเผยแพร่วัฒนธรรมฉีลู่ (Qilu Culture)
-
-ขณะเดียวกัน ศูนย์แห่งนี้ยังแสดงให้เห็นถึงความพยายามของมณฑลซานตงในการสำรวจมรดกทางวัฒนธรรมรูปแบบใหม่ สร้างแบรนด์สาธารณะระดับภูมิภาค และผลักดันการพัฒนาอุตสาหกรรม “ซานตง แฮนด์คราฟต์ส” ในรูปแบบที่ทันสมัย
-ในอนาคต ศูนย์แห่งนี้จะเดินหน้าพัฒนาทรัพย์สินทางปัญญาของตนเองต่อไป ตลอดจนสร้างรูปแบบใหม่ของการบูรณาการบริการออนไลน์และประสบการณ์ออฟไลน์เข้าด้วยกัน และนำเสนอแนวทางที่จะช่วยให้แบรนด์ “ซานตง แฮนด์คราฟต์ส” ก้าวไปสู่ระดับโลกได้อย่างรวดเร็วขึ้น
+                                สถาบันการเรียนรู้ตลอดชีวิต จัดอบรมเชิงปฏิบัติการ "การทำตุงและโคมประดิษฐ์" ให้กับชุมชนในตำบลเวียงเชียงของ จังหวัดเชียงราย
+วันที่ 10 – 11 ธันวาคม 2565  เวลา 08.00-16.30 น. ณ ศาลาเอนกประสงค์วัดหาดไคร้ ตำบลเวียงเชียงของ อำเภอเชียงของ จังหวัดเชียงราย สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย จัดอบรมเชิงปฏิบัติการ การส่งเสริมพัฒนาทักษะความต้องการและสอดคล้องกับทักษะที่จำเป็นในการทำงานและความต้องการของตลาดแรงงาน“การทำตุงและโคมประดิษฐ์” ทั้งนี้ ผศ.ดร.นวลนภา  จุลสุทธิ : ผู้ช่วยอธิการบดี ได้กล่าวรายงานและ กล่าวความเป็นมาของการดำเนินงานจัดอบรม และได้รับเกียรติจากท่านนายกเทศมนตรีตำบลเวียงเชียงของ (สุกัญญา ที่ปรึกษา) เป็นประธานในพิธีเปิด รวมถึงท่านผู้ใหญ่บ้านในชุมชน ร่วมเป็นเกียรติในพิธี...และวิทยากรให้ความรู้ เป็นผู้ที่มีความเชี่ยวชาญด้านภูมิปัญญาและวัฒนธรรม โดย ผศ.ดร. ณรงค์  เจนใจ 
+    การจัดหลักสูตรส่งเสริมทักษะการเรียนรู้ตลอดชีวิต "การทำตุงและโคมประดิษฐ์" เป็นหลักสูตรฝึกอบรมระยะสั้นสำหรับประชาชนทั่วไปขึ้น มีวัตถุประสงค์เพิ่อเป็นการเสริมสร้างอาชีพ สร้างรายได้ เพิ่มพูนทักษะ ความรู้ อีกทั้งยังเป็นการพัฒนาคุณภาพชีวิตความเป็นอยู่ที่ดีขึ้นที่สอดคล้องกับวิถีชีวิตและความเป็นอยู่ รวมถึงเป็นการอนุรักษ์ภูมิปัญญา สืบสานศิลปวัฒนธรรมอันล้ำค่าของชาวล้านนา
                                 </div>
 
                                 <!-- Post Author Info
@@ -65,12 +58,14 @@ $this->load->view('website/theme/include/breadcrumb');
 									<div class="card-header"><strong>ภาพข่าว : <a href="#"><?php echo $topic_news;?></a></strong></div>
 									<div class="card-body">
                                     <div class="masonry-thumbs grid-container masonry-gap-xl grid-2 grid-md-4 has-init-isotope" data-lightbox="gallery" style="position: relative; height: 2316px;">
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/1.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 0px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/1.jpg" alt="Image"></a>
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/2.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 386px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/2.jpg" alt="Image"></a>
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/3.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 772px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/3.jpg" alt="Image"></a>
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/4.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1158px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/4.jpg" alt="Image"></a>
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/5.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1544px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/5.jpg" alt="Image"></a>
-								<a href="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/6.jpg" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1930px;"><img class="rounded-5" src="<?php echo CANVAS;?>images/blocks/preview/portfolio-single/6.jpg" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/1.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 0px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/1.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/2.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 386px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/2.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/3.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 772px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/3.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/4.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1158px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/4.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/5.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1544px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/5.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/6.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1930px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/6.jpg'); ?>" alt="Image"></a>
+                                <a href="<?php echo base_url('assets/images/upload/album/1003/7.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1544px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/7.jpg'); ?>" alt="Image"></a>
+								<a href="<?php echo base_url('assets/images/upload/album/1003/8.jpg'); ?>" data-lightbox="gallery-item" class="grid-item" style="position: absolute; left: 0%; top: 1930px;"><img class="rounded-5" src="<?php echo base_url('assets/images/upload/album/1003/8.jpg'); ?>" alt="Image"></a>
 							</div>
 									</div>
 								</div><!-- Post Single - Author End -->
@@ -212,65 +207,35 @@ $this->load->view('website/theme/include/breadcrumb');
                             <h4 class="highlight-me text-center font-sarabun">หลักสูตรเสริมทักษะและพัฒนาการเรียนรู้ตลอดชีวิต</h4>
                             <div id="oc-portfolio-sidebar" class="owl-carousel carousel-widget" data-items="1" data-margin="10" data-loop="true" data-nav="false" data-autoplay="5000">
 
-                                <div class="oc-item">
-                                    <div class="portfolio-item">
-                                        <div class="portfolio-image">
-                                            <a href="https://lifelong.crru.ac.th/course/detail/8">
-                                                <img src="<?php echo base_url('assets/images/upload/course/course_img_LL6502001_1663135038.jpg'); ?>" class="rounded" alt="เสริมทักษะสมอง (EF) พิชิตชีวิตที่สำเร็จในเด็กปฐมวัย">
-                                            </a>
-                                        </div>
-                                        <div class="portfolio-desc text-center pb-0">
-                                            <h3><a href="https://lifelong.crru.ac.th/course/detail/8" class="font-sarabun" style="font-size:16px;">เสริมทักษะสมอง (EF) พิชิตชีวิตที่สำเร็จในเด็กปฐมวัย</a></h3>
-                                            <span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/8">เปิดรับสมัครวันที่ : 15 ก.ย. - 20 ต.ค. 2565</a></span>
-                                            <a href="https://lifelong.crru.ac.th/course/detail/8" class="btn btn-danger w-100 th-font mt-3">ลงทะเบียนหลักสูตร</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="oc-item">
+									<div class="portfolio-item">
+										<div class="portfolio-image">
+											<a href="https://lifelong.crru.ac.th/course/detail/66">
+												<img src="<?php echo base_url('assets/images/upload/course/course_img_LL6506011_1664557802.png'); ?>" class="rounded" alt="ทักษะการนำเสนอสำหรับผู้นำชุมชน">
+											</a>
+										</div>
+										<div class="portfolio-desc text-center pb-0">
+											<h3><a href="https://lifelong.crru.ac.th/course/detail/66" class="font-sarabun" style="font-size:16px;">ทักษะการนำเสนอสำหรับผู้นำชุมชน</a></h3>
+											<span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/66">เปิดรับสมัครวันที่ : 1 ม.ค. 66 - 31 ม.ค. 66</a></span>
+											<a href="https://lifelong.crru.ac.th/course/detail/66" class="btn btn-danger w-100 th-font mt-3">รายละเอียดหลักสูตร</a>
+										</div>
+									</div>
+								</div>
 
-                                <div class="oc-item">
-                                    <div class="portfolio-item">
-                                        <div class="portfolio-image">
-                                            <a href="https://lifelong.crru.ac.th/course/detail/44">
-                                                <img src="<?php echo base_url('assets/images/upload/course/course_img_LL6503007_1663845299.png'); ?>" class="rounded" alt="ภาษาไทยเพื่อการสื่อสารสำหรับชาวต่างชาติ">
-                                            </a>
-                                        </div>
-                                        <div class="portfolio-desc text-center pb-0">
-                                            <h3><a href="https://lifelong.crru.ac.th/course/detail/44" class="font-sarabun" style="font-size:16px;">ภาษาไทยเพื่อการสื่อสารสำหรับชาวต่างชาติ</a></h3>
-                                            <span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/44">เปิดรับสมัครวันที่ : 15 ก.ย. - 31 ต.ค. 2565</a></span>
-                                            <a href="https://lifelong.crru.ac.th/course/detail/44" class="btn btn-danger w-100 th-font mt-3">ลงทะเบียนหลักสูตร</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="oc-item">
-                                    <div class="portfolio-item">
-                                        <div class="portfolio-image">
-                                            <a href="https://lifelong.crru.ac.th/course/detail/10">
-                                                <img src="<?php echo base_url('assets/images/upload/course/course_img_LL6503001_1661949765.png'); ?>" class="rounded" alt="นวัตกรรมสร้างสรรค์เพื่อพัฒนาทักษะการอ่านออกเขียนได้ สำหรับนักเรียน">
-                                            </a>
-                                        </div>
-                                        <div class="portfolio-desc text-center pb-0">
-                                            <h3><a href="https://lifelong.crru.ac.th/course/detail/10" class="font-sarabun" style="font-size:16px;">นวัตกรรมสร้างสรรค์เพื่อพัฒนาทักษะการอ่านออกเขียนได้ สำหรับนักเรียน</a></h3>
-                                            <span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/10">เปิดรับสมัครวันที่ : 1 ต.ค. - 20 ต.ค. 2565</a></span>
-                                            <a href="https://lifelong.crru.ac.th/course/detail/10" class="btn btn-danger w-100 th-font mt-3">ลงทะเบียนหลักสูตร</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="oc-item">
-                                    <div class="portfolio-item">
-                                        <div class="portfolio-image">
-                                            <a href="https://lifelong.crru.ac.th/course/detail/20">
-                                                <img src="<?php echo base_url('assets/images/upload/course/course_img_LL6506008_1661949668.png'); ?>" class="rounded" alt="วิทยากรชุมชน">
-                                            </a>
-                                        </div>
-                                        <div class="portfolio-desc text-center pb-0">
-                                            <h3><a href="https://lifelong.crru.ac.th/course/detail/20" class="font-sarabun" style="font-size:16px;">วิทยากรชุมชน</a></h3>
-                                            <span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/20">เปิดรับสมัครวันที่ : 1 ต.ค. - 20 ต.ค. 2565</a></span>
-                                            <a href="https://lifelong.crru.ac.th/course/detail/20" class="btn btn-danger w-100 th-font mt-3">ลงทะเบียนหลักสูตร</a>
-                                        </div>
-                                    </div>
-                                </div>
+								<div class="oc-item">
+									<div class="portfolio-item">
+										<div class="portfolio-image">
+											<a href="https://lifelong.crru.ac.th/course/detail/67">
+												<img src="<?php echo base_url('assets/images/upload/course/course_img_LL6509001_1664417805.png'); ?>" class="rounded" alt="การปฐมพยาบาลเบื้องต้นและการช่วยฟื้นคืนชีพขั้นพื้นฐานในสถานประกอบการ">
+											</a>
+										</div>
+										<div class="portfolio-desc text-center pb-0">
+											<h3><a href="https://lifelong.crru.ac.th/course/detail/67" class="font-sarabun" style="font-size:16px;">การปฐมพยาบาลเบื้องต้นและการช่วยฟื้นคืนชีพขั้นพื้นฐานในสถานประกอบการ</a></h3>
+											<span class="font-sarabun" style="font-size:12px;"><a href="https://lifelong.crru.ac.th/course/detail/67">เปิดรับสมัครวันที่ : 1 ม.ค. 66 - 31 ม.ค. 66</a></span>
+											<a href="https://lifelong.crru.ac.th/course/detail/67" class="btn btn-danger w-100 th-font mt-3">รายละเอียดหลักสูตร</a>
+										</div>
+									</div>
+								</div>
 
                             </div>
 
