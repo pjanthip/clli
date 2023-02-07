@@ -1,4 +1,4 @@
-<footer id="footer" class="dark" style="background: url('https://clli.crru.ac.th/assets/canvas/html/images/footer-bg.jpg') repeat fixed; background-size: 100% 100%;">
+<footer id="footer" class="dark" style="background: url('<?php echo base_url('assets/theme/canvas/images/footer-bg.jpg');?>') repeat fixed; background-size: 100% 100%;">
     <div id="copyrights">
         <div class="container">
 

@@ -104,7 +104,7 @@
 							</a>
 							<ul class="sub-menu-container border-top-0" style="width:250px;">
 								<li class="menu-item">
-									<a class="menu-link" href="https://lifelong.crru.ac.th/" target="_blank">
+									<a class="menu-link" href="https://lifelong.crru.ac.th/course#tabs-30" target="_blank">
 										<div><i class="fa-solid fa-fire me-2"></i> หลักสูตรที่กำลังเปิดรับสมัคร</div>
 									</a>
 								</li>
@@ -304,7 +304,7 @@
 							</a>
 							<ul class="sub-menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="https://lifelong.crru.ac.th/" target="_blank">
+									<a class="menu-link" href="https://lifelong.crru.ac.th/course#tabs-30" target="_blank">
 									<!-- <a class="menu-link" href="<?php echo site_url('lifelong/opening'); ?>"> -->
 										<div><i class="fa-solid fa-fire me-2"></i> หลักสูตรที่กำลังเปิดรับสมัคร</div>
 									</a>

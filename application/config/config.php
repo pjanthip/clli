@@ -8,7 +8,7 @@
 */
 date_default_timezone_set("Asia/Bangkok");
 defined('BASEPATH') OR exit('No direct script access allowed');
-define('PROTOCAL', 'http'); // for Production
+define('PROTOCAL', 'https'); // for Production
 define('APPBASE', PROTOCAL ."://{$_SERVER['SERVER_NAME']}".str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'])); //https://domain.com/project/blabla/
 
 /*
