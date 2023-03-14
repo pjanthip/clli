@@ -10,7 +10,7 @@
         <div class="slider-wrap">
             <div class="slide flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
                 <div class="testi-image">
-                    <a href="https://clli.crru.ac.th/assets/images/personnels/01.jpg" data-lightbox="image"><img src="https://clli.crru.ac.th/assets/images/personnels/01.jpg" alt="ผู้ช่วยศาสตราจารย์ ดร.นวลนภา จุลสุทธิ" draggable="false"></a>
+                    <a href="<?php echo base_url('assets/images/personnels/01.jpg')?>" data-lightbox="image"><img src="<?php echo base_url('assets/images/personnels/01.jpg')?>" alt="ผู้ช่วยศาสตราจารย์ ดร.นวลนภา จุลสุทธิ" draggable="false"></a>
                 </div>
                 <div class="testi-content">
                     <div class="testi-meta non-meta">ผู้ช่วยศาสตราจารย์ ดร.นวลนภา จุลสุทธิ<span>ผู้ช่วยอธิการบดี มหาวิทยาลัยราชภัฏเชียงราย</span></div>
@@ -25,7 +25,7 @@
         <div class="slider-wrap">
             <div class="slide flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
                 <div class="testi-image">
-                    <a href="https://clli.crru.ac.th/assets/images/personnels/02.jpg" data-lightbox="image"><img src="https://clli.crru.ac.th/assets/images/personnels/02.jpg" alt="ผู้ช่วยศาสตราจารย์ ดร.ศิวภรณ์ สองแสน" draggable="false"></a>
+                    <a href="<?php echo base_url('assets/images/personnels/02.jpg')?>" data-lightbox="image"><img src="<?php echo base_url('assets/images/personnels/02.jpg')?>" alt="ผู้ช่วยศาสตราจารย์ ดร.ศิวภรณ์ สองแสน" draggable="false"></a>
                 </div>
                 <div class="testi-content">
                     <div class="testi-meta non-meta">ผู้ช่วยศาสตราจารย์ ดร.ศิวภรณ์ สองแสน<span>ผู้อำนวยการ<br>สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย</span></div>
@@ -39,8 +39,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/03.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/03.jpg" alt="นางสาวดวงรัตน์ อินพรม"></a>
+                <a href="<?php echo base_url('assets/images/personnels/03.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/03.jpg')?>" alt="นางสาวดวงรัตน์ อินพรม"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาวดวงรัตน์ อินพรม<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -50,8 +50,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/04.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/04.jpg" alt="นางสาววิไลพร ริ้วสุวรรณ"></a>
+                <a href="<?php echo base_url('assets/images/personnels/04.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/04.jpg')?>" alt="นางสาววิไลพร ริ้วสุวรรณ"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาววิไลพร ริ้วสุวรรณ<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -61,8 +61,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/05.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/05.jpg" alt="นางสาวปรียะดา จอมแสง"></a>
+                <a href="<?php echo base_url('assets/images/personnels/05.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/05.jpg')?>" alt="นางสาวปรียะดา จอมแสง"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาวปรียะดา จอมแสง<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -72,8 +72,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/06.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/06.jpg" alt="นายอนุวัฒน์ จินาจาย"></a>
+                <a href="<?php echo base_url('assets/images/personnels/06.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/06.jpg')?>" alt="นายอนุวัฒน์ จินาจาย"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายอนุวัฒน์ จินาจาย<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -83,8 +83,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/07.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/07.jpg" alt="นางพิชญา ศราวณะ"></a>
+                <a href="<?php echo base_url('assets/images/personnels/07.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/07.jpg')?>" alt="นางพิชญา ศราวณะ"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางพิชญา ศราวณะ<span>นักวิชาการศึกษา</span></div>
@@ -94,8 +94,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/08.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/08.jpg" alt="นายยุทธภูมิ บัวใหญ่"></a>
+                <a href="<?php echo base_url('assets/images/personnels/08.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/08.jpg')?>" alt="นายยุทธภูมิ บัวใหญ่"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายยุทธภูมิ บัวใหญ่<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -105,8 +105,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/09.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/09.jpg" alt="นางสาวปราณีต ปงกันคำ"></a>
+                <a href="<?php echo base_url('assets/images/personnels/09.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/09.jpg')?>" alt="นางสาวปราณีต ปงกันคำ"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาวปราณีต ปงกันคำ<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -116,8 +116,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/10.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/10.jpg" alt="นายวินท์ปวัฒน์ พันธ์ด้วง"></a>
+                <a href="<?php echo base_url('assets/images/personnels/10.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/10.jpg')?>" alt="นายวินท์ปวัฒน์ พันธ์ด้วง"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายวินท์ปวัฒน์ พันธ์ด้วง<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
@@ -127,8 +127,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/11.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/11.jpg" alt="นายปณิธาน จันทร์ทิพย์"></a>
+                <a href="<?php echo base_url('assets/images/personnels/11.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/11.jpg')?>" alt="นายปณิธาน จันทร์ทิพย์"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายปณิธาน จันทร์ทิพย์<span>นักวิชาการคอมพิวเตอร์</span></div>
@@ -138,8 +138,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/19.jpg" data-lightbox="image">
-                <img style="max-width:50px" src="https://clli.crru.ac.th/assets/images/personnels/19.jpg" alt="นายธราธร ทิพยโสตถิ"></a>
+                <a href="<?php echo base_url('assets/images/personnels/19.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/19.jpg')?>" alt="นายธราธร ทิพยโสตถิ"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายธราธร ทิพยโสตถิ<span>นักวิชาการคอมพิวเตอร์</span></div>
@@ -149,8 +149,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/18.jpg" data-lightbox="image">
-                <img style="max-width:50px" src="https://clli.crru.ac.th/assets/images/personnels/18.jpg" alt="นายปฏิภาณ สุขมาก"></a>
+                <a href="<?php echo base_url('assets/images/personnels/18.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/18.jpg')?>" alt="นายปฏิภาณ สุขมาก"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายปฏิภาณ สุขมาก<span>นักวิชาการคอมพิวเตอร์</span></div>
@@ -160,8 +160,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/12.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/12.jpg" alt="นายนิยม ติยานันท์"></a>
+                <a href="<?php echo base_url('assets/images/personnels/12.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/12.jpg')?>" alt="นายนิยม ติยานันท์"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายนิยม ติยานันท์<span>นักวิชาการช่างศิลป์</span></div>
@@ -171,8 +171,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/13.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/13.jpg" alt="นายกรัณย์ กำสมุทร"></a>
+                <a href="<?php echo base_url('assets/images/personnels/13.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/13.jpg')?>" alt="นายกรัณย์ กำสมุทร"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นายกรัณย์ กำสมุทร<span>นักวิชาการช่างศิลป์</span></div>
@@ -182,8 +182,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/14.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/14.jpg" alt="นางสาวปรียากร เชียงพันธ์"></a>
+                <a href="<?php echo base_url('assets/images/personnels/14.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/14.jpg')?>" alt="นางสาวปรียากร เชียงพันธ์"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาวปรียากร เชียงพันธ์<span>นักวิชาการช่างศิลป์</span></div>
@@ -193,8 +193,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/15.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/15.jpg" alt="นางกชกร จี้อาทิตย์"></a>
+                <a href="<?php echo base_url('assets/images/personnels/15.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/15.jpg')?>" alt="นางกชกร จี้อาทิตย์"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางกชกร จี้อาทิตย์<span>นักวิชาการช่างศิลป์</span></div>
@@ -204,8 +204,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/16.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/16.jpg" alt="นางสาวเบญญาดา สุคนธ์เขตร์"></a>
+                <a href="<?php echo base_url('assets/images/personnels/16.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/16.jpg')?>" alt="นางสาวเบญญาดา สุคนธ์เขตร์"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางสาวเบญญาดา สุคนธ์เขตร์<span>นักวิชาการช่างศิลป์</span></div>
@@ -215,8 +215,8 @@
     <li class="grid-item">
         <div class="testimonial">
             <div class="testi-image">
-                <a href="https://clli.crru.ac.th/assets/images/personnels/17.jpg" data-lightbox="image">
-                <img src="https://clli.crru.ac.th/assets/images/personnels/17.jpg" alt="นางบัญชา ตรูหม่อง"></a>
+                <a href="<?php echo base_url('assets/images/personnels/17.jpg')?>" data-lightbox="image">
+                <img src="<?php echo base_url('assets/images/personnels/17.jpg')?>" alt="นางบัญชา ตรูหม่อง"></a>
             </div>
             <div class="testi-content">
                 <div class="testi-meta">นางบัญชา ตรูหม่อง<span>เจ้าหน้าที่บริการ</span></div>
