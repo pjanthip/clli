@@ -43,7 +43,7 @@
                 <img src="<?php echo base_url('assets/images/personnels/03.jpg')?>" alt="นางสาวดวงรัตน์ อินพรม"></a>
             </div>
             <div class="testi-content">
-                <div class="testi-meta">นางสาวดวงรัตน์ อินพรม<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
+                <div class="testi-meta">นางสาวดวงรัตน์ อินพรม<span>นักวิชาการศึกษา</span></div>
             </div>
         </div>
     </li>
@@ -54,7 +54,7 @@
                 <img src="<?php echo base_url('assets/images/personnels/04.jpg')?>" alt="นางสาววิไลพร ริ้วสุวรรณ"></a>
             </div>
             <div class="testi-content">
-                <div class="testi-meta">นางสาววิไลพร ริ้วสุวรรณ<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
+                <div class="testi-meta">นางสาววิไลพร ริ้วสุวรรณ<span>เจ้าหน้าที่บริหารงานทั่วไป ชำนาญการ</span></div>
             </div>
         </div>
     </li>
@@ -65,18 +65,7 @@
                 <img src="<?php echo base_url('assets/images/personnels/05.jpg')?>" alt="นางสาวปรียะดา จอมแสง"></a>
             </div>
             <div class="testi-content">
-                <div class="testi-meta">นางสาวปรียะดา จอมแสง<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
-            </div>
-        </div>
-    </li>
-    <li class="grid-item">
-        <div class="testimonial">
-            <div class="testi-image">
-                <a href="<?php echo base_url('assets/images/personnels/06.jpg')?>" data-lightbox="image">
-                <img src="<?php echo base_url('assets/images/personnels/06.jpg')?>" alt="นายอนุวัฒน์ จินาจาย"></a>
-            </div>
-            <div class="testi-content">
-                <div class="testi-meta">นายอนุวัฒน์ จินาจาย<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
+                <div class="testi-meta">นางสาวปรียะดา จอมแสง<span>นักวิชาการศึกษา</span></div>
             </div>
         </div>
     </li>
@@ -98,7 +87,7 @@
                 <img src="<?php echo base_url('assets/images/personnels/08.jpg')?>" alt="นายยุทธภูมิ บัวใหญ่"></a>
             </div>
             <div class="testi-content">
-                <div class="testi-meta">นายยุทธภูมิ บัวใหญ่<span>เจ้าหน้าที่บริหารงานทั่วไป</span></div>
+                <div class="testi-meta">นายยุทธภูมิ บัวใหญ่<span>นักวิชาการศึกษา</span></div>
             </div>
         </div>
     </li>
