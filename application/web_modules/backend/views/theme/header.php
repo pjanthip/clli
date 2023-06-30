@@ -32,6 +32,14 @@
     <link href="<?php echo site_url('assets/css/style_backend.css');?>" rel="stylesheet">
     <!-- Import Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- TinyMCE script -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.1.0/tinymce.min.js'></script>
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<!-- sweetalert2 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css">
+    <!-- Select2 Bootstrap theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.css" integrity="sha512-CbQfNVBSMAYmnzP3IC+mZZmYMP2HUnVkV4+PwuhpiMUmITtSpS7Prr3fNncV1RBOnWxzz4pYQ5EAGG4ck46Oig==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Import Bootstrap -->
     <!-- <link href="<?php echo base_url('assets/plugins/bootstrap5/css/bootstrap.min.css');?>" rel="stylesheet">
     <script src="<?php echo base_url('assets/plugins/bootstrap5/js/bootstrap.min.js');?>"></script> -->

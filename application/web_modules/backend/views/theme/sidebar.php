@@ -7,8 +7,8 @@
         <!-- Sidebar navigation-->
         <nav class="sidebar-nav font-main">
             <ul id="sidebarnav">
-                
-                <li class="user-pro"> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><img src="<?php echo eliteadmin; ?>assets/images/users/1.jpg" alt="user-img" class="img-circle"><span class="hide-menu">Prof. Mark</span></a>
+
+                <!-- <li class="user-pro"> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><img src="<?php echo eliteadmin; ?>assets/images/users/1.jpg" alt="user-img" class="img-circle"><span class="hide-menu"><?php echo $this->session->userdata('full_name');?></span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="javascript:void(0)"><i class="ti-user"></i> My Profile</a></li>
                         <li><a href="javascript:void(0)"><i class="ti-wallet"></i> My Balance</a></li>
@@ -16,21 +16,61 @@
                         <li><a href="javascript:void(0)"><i class="ti-settings"></i> Account Setting</a></li>
                         <li><a href="javascript:void(0)"><i class="fa fa-power-off"></i> Logout</a></li>
                     </ul>
-                </li>
-                <li class="nav-small-cap">--- เมนูหลัก</li>
-                <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend');?>"><i class="icon-speedometer"></i><span class="hide-menu">หน้าหลัก</span></a>
+                </li> -->
+
+                <li class="nav-small-cap">--- Main Menus</li>
+                <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend'); ?>"><i class="icon-speedometer"></i><span class="hide-menu">Dashboard</span></a>
+
+                <!-- Start Website Manage Menu -->
+                <?php if($this->session->userdata('type')==1):?>
+                <li class="nav-small-cap">--- Website Manage</li>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fa-solid fa-award"></i>CLLI Data.</a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="javascript:void(0)">ข้อมูลหน่วยงาน</a></li>
+                            <li><a href="javascript:void(0)">โครงสร้างหน่วยงาน</a></li>
+                            <li><a href="javascript:void(0)">ข้อมูลบุคลากร</a></li>
+                            <li><a href="javascript:void(0)">ข้อมูลติดต่อ</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fa-solid fa-award"></i>Advertising</a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="javascript:void(0)">แบนเนอร์</a></li>
+                            <li><a href="<?php echo site_url('backend/news'); ?>">ข่าวประชาสัมพันธ์</a></li>
+                            <li><a href="javascript:void(0)">บทความ</a></li>
+                            <li><a href="javascript:void(0)">ภาพกิจกรรม</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fa-solid fa-award"></i>CLLI Clound</a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="javascript:void(0)">Images</a></li>
+                            <li><a href="javascript:void(0)">Medias</a></li>
+                            <li><a href="javascript:void(0)">Documents</a></li>
+                            <li><a href="javascript:void(0)">Other files</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fa-solid fa-award"></i>Web Setting</a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li><a href="javascript:void(0)">Menus</a></li>
+                            <li><a href="javascript:void(0)">Structure</a></li>
+                            <li><a href="javascript:void(0)">Site Map</a></li>
+                            <li><a href="javascript:void(0)">Setting</a></li>
+                        </ul>
+                    </li>
+                <?php endif;?>
+                <!-- End Website Manage Menu -->
+
                 <li class="nav-small-cap">--- วุฒิบัตร</li>
                 <li> <a class="waves-effect waves-dark" href="<?php echo base_url('backend/diploma/form_add'); ?>">
                         <i class="fa-solid fa-barcode"></i>ออกเลขวุฒิบัตร </a>
                 </li>
-                <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend/diploma/');?>">
+                <li> <a class="waves-effect waves-dark" href="<?php echo site_url('backend/diploma/'); ?>">
                         <i class="fa-solid fa-award"></i>ข้อมูลวุฒิบัตร </a>
                 </li>
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)">
                         <i class="fa-solid fa-book"></i>รูปแบบหลักสูตร </a>
                 </li>
-                <li class="nav-small-cap">--- PERSONAL</li>
-                
+
+                <!-- <li class="nav-small-cap">--- PERSONAL</li>
                 </li>
                 <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti-layout-grid2"></i><span class="hide-menu">Apps</span></a>
                     <ul aria-expanded="false" class="collapse">
@@ -268,11 +308,11 @@
                         </li>
                         <li><a href="javascript:void(0)">item 1.4</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="nav-small-cap">--- SUPPORT</li>
-                <li> <a class="waves-effect waves-dark" href="../documentation/documentation.html" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">Documentation</span></a></li>
-                <li> <a class="waves-effect waves-dark" href="pages-login.html" aria-expanded="false"><i class="far fa-circle text-success"></i><span class="hide-menu">Log Out</span></a></li>
-                <li> <a class="waves-effect waves-dark" href="pages-faq.html" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">FAQs</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="../documentation/documentation.html" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">คู่มือการใช้งานระบบ</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="<?php echo base_url('backend/login/on_logout') ?>" aria-expanded="false"><i class="far fa-circle text-success"></i><span class="hide-menu">ออกจากระบบ</span></a></li>
+                <li> <a class="waves-effect waves-dark" href="pages-faq.html" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">ถาม-ตอบ</span></a></li>
             </ul>
         </nav>
         <!-- End Sidebar navigation -->

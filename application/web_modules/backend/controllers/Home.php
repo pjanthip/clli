@@ -11,6 +11,9 @@ class Home extends CI_Controller
         if (!$this->session->userdata('user_id') || $this->session->userdata('is_admin') === false) {
             redirect('backend/login');
         }
+
+        //$this->load->model('GetDataTablemodel', 'GetDataTablemodel');
+        $this->load->helper('mydate_helper');
     }
 
     public function main_variable()
@@ -20,13 +23,15 @@ class Home extends CI_Controller
         $reponse['description'] = '';
         $reponse['author'] = '';
         $reponse['page'] = '';
+        $reponse['has_button_nav'] = false;
+        $reponse['has_button_nav_icon'] = '';
+        $reponse['has_button_nav_name'] = '';
         return $reponse;
     }
 
     public function index()
     {
         $reponse = $this->main_variable();
-
         $reponse['title_page'] = 'Dashboard';
         $reponse['icon_page'] = '<i class="feather icon-home"></i>';
         $reponse['page'] = 'home';

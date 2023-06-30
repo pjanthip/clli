@@ -253,7 +253,7 @@
                 <!-- User Profile -->
                 <!-- ============================================================== -->
                 <li class="nav-item dropdown u-pro">
-                    <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo eliteadmin;?>assets/images/users/1.jpg" alt="user" class=""> <span class="hidden-md-down"><?php echo $this->session->userdata('user_name') ?> &nbsp;<i class="fa fa-angle-down"></i></span> </a>
+                    <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo eliteadmin;?>assets/images/users/1.jpg" alt="user" class=""> <span class="hidden-md-down"><?php echo $this->session->userdata('full_name') ?> &nbsp;<i class="fa fa-angle-down"></i></span> </a>
                     <div class="dropdown-menu dropdown-menu-end animated flipInY">
                         <!-- text-->
                         <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> โปรไฟล์ของฉัน</a>

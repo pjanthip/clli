@@ -220,8 +220,8 @@
 									</a>
 								</li>
 								<li class="menu-item">
-									<a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;">
-									<!-- <a class="menu-link" href="<?php echo site_url('admin'); ?>"> -->
+									<!-- <a href="#" class="menu-link" data-notify-type="warning" data-notify-msg="<i class='icon-warning-sign me-1'></i> กำลังพัฒนาระบบ" onclick="SEMICOLON.widget.notifications({ el: this }); return false;"> -->
+									<a class="menu-link" href="<?php echo site_url('backend'); ?>">
 										<div><i class="fa-solid fa-screwdriver-wrench me-2"></i> Administrator</div>
 									</a>
 								</li>

@@ -72,7 +72,7 @@ class Login extends CI_Controller
             $login_username = $this->input->post('login_username');
             $login_password = $this->input->post('login_password');
 
-            $this->db->select('personnels_username, personnels_password, showStatus, personnels_id');
+            $this->db->select('personnels_fname_th, personnels_lname_th, personnels_username, personnels_password, showStatus, personnels_id, access_rights_id');
             $query = $this->db->get_where('tb_personnels', array('personnels_username' => $login_username));
 
             // username exist guard
@@ -86,6 +86,7 @@ class Login extends CI_Controller
             $password = $query->row()->personnels_password;
             $status = $query->row()->showStatus;
             $user_id = $query->row()->personnels_id;
+            $user_type = $query->row()->access_rights_id;
 
             // check password guard
             if ($password !== md5($login_password)) {
@@ -99,8 +100,9 @@ class Login extends CI_Controller
                     $session_userdata = array(
                         'user_id' => $user_id,
                         'user_name' => $query->row()->personnels_username,
+                        'full_name' => $query->row()->personnels_fname_th.' '.$query->row()->personnels_lname_th,
                         'is_admin' => TRUE,
-                        'type' => '1'
+                        'type' => $user_type
                     );
                     break;
                 default:
