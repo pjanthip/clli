@@ -24,7 +24,7 @@ class Newdean extends CI_Controller
     {
         $reponse = [];
 
-        $reponse['title'] = 'เอกสารดาวน์โหลด | CRRU Lifelong Learning Institute';
+        $reponse['title'] = 'โครงการ New Dean | CRRU Lifelong Learning Institute';
         $reponse['keywords'] = '';
         $reponse['description'] = '';
         $reponse['author'] = 'สถาบันการเรียนรู้ตลอดชีวิต มหาวิทยาลัยราชภัฏเชียงราย';
