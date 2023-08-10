@@ -69,6 +69,7 @@ $route['cwie'] = 'website/cwie';
 $route['cwie/(:any)'] = 'website/cwie/$1';
 $route['ceramic'] = 'website/ceramic';
 $route['ceramic/(:any)'] = 'website/ceramic/$1';
+$route['newdean'] = 'website/newdean';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
