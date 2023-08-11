@@ -9,6 +9,9 @@ $this->load->view('website/theme/include/breadcrumb');
 		<div class="row gutter-40 col-mb-80">
 						<!-- Post Content
 						============================================= -->
+						<div style="text-align:center;">
+							<img src="<?php echo base_url("assets/upload/newdean/72594.jpg")?>" style="max-width:800px;"/>
+						</div>
 						<div class="postcontent col-lg-12">
 
 							<div class="grid-filter-wrap">
@@ -210,7 +213,14 @@ $this->load->view('website/theme/include/breadcrumb');
 								</div>
 
 								
+								<!-- <div class="modal-on-load" data-target="#myModal1"></div>
 
+
+								<div class="modal1 mfp-hide" id="myModal1">
+									<div class="block mx-auto" style="background-color: #FFF; max-width: 700px;">
+										<img src="<?php echo base_url("assets/upload/newdean/72594.jpg")?>"/>
+									</div>
+								</div> -->
 
 							</div>
 
