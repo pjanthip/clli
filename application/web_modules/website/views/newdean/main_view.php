@@ -9,8 +9,10 @@ $this->load->view('website/theme/include/breadcrumb');
 		<div class="row gutter-40 col-mb-80">
 						<!-- Post Content
 						============================================= -->
-						<div style="text-align:center;">
-							<img src="<?php echo base_url("assets/upload/newdean/72594.jpg")?>" style="max-width:800px;"/>
+						<div class="d-flex justify-content-center">
+						<div class="col-12 col-lg-8" style="text-align:center;">
+							<img src="<?php echo base_url("assets/upload/newdean/72594.jpg")?>" style="width:100%;"/>
+						</div>
 						</div>
 						<div class="postcontent col-lg-12">
 
