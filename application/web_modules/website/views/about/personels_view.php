@@ -188,7 +188,7 @@
                     <a href="<?php echo base_url('assets/images/personnels/08.jpg')?>" data-lightbox="image"><img src="<?php echo base_url('assets/images/personnels/08.jpg')?>" alt="นายยุทธภูมิ บัวใหญ่" draggable="false"></a>
                 </div>
                 <div class="testi-content">
-                    <div class="testi-meta non-meta">นายยุทธภูมิ บัวใหญ่<span>นักวิชาการศึกษา<br>หัวหน้าฝ่านงาน</span></div>
+                    <div class="testi-meta non-meta">นายยุทธภูมิ บัวใหญ่<span>นักวิชาการศึกษา<br>หัวหน้าฝ่ายงาน</span></div>
                 </div>
             </div>
         </div>
@@ -207,7 +207,7 @@
                     <a href="<?php echo base_url('assets/images/personnels/11.jpg')?>" data-lightbox="image"><img src="<?php echo base_url('assets/images/personnels/11.jpg')?>" alt="นายปณิธาน จันทร์ทิพย์" draggable="false"></a>
                 </div>
                 <div class="testi-content">
-                    <div class="testi-meta non-meta">นายปณิธาน จันทร์ทิพย์<span>นักวิชาการคอมพิวเตอร์<br>หัวหน้าฝ่านงาน</span></div>
+                    <div class="testi-meta non-meta">นายปณิธาน จันทร์ทิพย์<span>นักวิชาการคอมพิวเตอร์<br>หัวหน้าฝ่ายงาน</span></div>
                 </div>
             </div>
         </div>
